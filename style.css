@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    padding-bottom: 250px;
+   
+}
+.navbar{
+    background-color: white;
+}
+.carousel-indicators li {
+    background-color: lightgray;
+}
+.carousel-indicators .active{
+    background-color: sandybrown;
+
+}
+
+
+.btn-custom{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+}
+.cd-btn{
+    margin-bottom: 10px;
+}
+
+.card-deck{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px lightgrey;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.phone-head{
+    margin-bottom: 20px;
+}
+.phone-head a{
+    color: #F2C783;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+footer img{
+    width: 100%;
+    vertical-align: middle;
+}
+.cat-h{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.cat-h::after{
+    position: absolute;
+    content: " ";
+    margin-top: 10px;
+    height: 7px;
+    width: 70px;
+    background: transparent linear-gradient(142deg, #FF9C35 0%, #FFD019 100%) 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cat-img1 img{
+    padding: 40px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 5px 5px 10px lightblue;
+    border-radius: 50px 10px 50px 10px;
+
+}
+.cat-img img{
+    padding: 40px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 5px 5px 10px lightblue;
+    border-radius: 50px 10px 50px 10px;
+}
+.footer-copyright{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.social{
+    margin: 0px;
+    height: 70px;
+    background-color: white;
+}
+.social ul{
+    margin-left: -62px;
+    list-style: none;
+    padding-top: 10px;
+
+}
+.social ul li{
+    display: inline-block;
+    
+}
+.social ul li i{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15px;
+}
+hr.hr-one{
+    height: 5px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(to left,lightgrey,lightblue);
+}
